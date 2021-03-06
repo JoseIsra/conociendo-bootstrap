@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+
+
+
+nav{
+    background-color: lightgrey;
+
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand
+{
+    font-size:1.45rem;
+    font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul li a 
+{
+    font-weight:500;
+    font-size:1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul li a:hover
+{
+    color:black;
+    font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+
+#hero
+{
+    margin-top:3.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#hero .col
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+
+.section
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.section h1
+{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom:20px;
+}
+
+.section p 
+{
+    font-size:20px;
+    font-weight: 500;
+}
+
+button{
+    max-width:50%;
+    border-radius:30px !important;
+}
+
+
+#hero .img-col
+{   
+    margin-top:0px;
+}
+#hero img
+{
+    max-width:100%;
+}
+
+.cards
+{
+    margin-top:4.5rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#hero .card
+{
+    border:none;
+    margin:1.5rem 0;
+    box-shadow: 11px 7px 16px rgba(0,0,0,.3);
+}
+
+
+#aboutme
+{
+    background-color: #0070f3;
+}
+
+#aboutme h1,
+#aboutme p
+{
+    text-align:center;
+    color:white;
 }
